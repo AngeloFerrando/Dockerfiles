@@ -26,5 +26,7 @@ RUN git clone https://github.com/javapathfinder/jpf-core
 WORKDIR /jpf-core
 RUN ./gradlew buildJars
 
+WORKDIR /
+
 
 
